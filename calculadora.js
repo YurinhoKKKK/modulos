@@ -2,7 +2,9 @@ var somar = require("./modulos/somar");
 var media = require("./modulos/media");
 var dividir = require("./modulos/dividir");
 var multiplicar = require("./modulos/multiplicar");
+var mensagem = require("./mensagem");
 
+console.log(mensagem("Yuri"));
 console.log("A soma de x e y é: " + somar(20,90));
 console.log("A média de x e y é: " + media(20,90));
 console.log("O produto de x e y é: " + multiplicar (20,90));
